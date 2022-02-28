@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planr - Price</title>
+
+  <!-- Import Style's -->
+  <link rel="stylesheet" href="./css/vendor.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="en-index.html" class="logo">
+        <picture>
+          <source srcset="img/logo.svg" type="image/webp"><img src="img/logo.svg" alt="Logo of Planr">
+        </picture>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="en-product.html" class="nav__link">
+              Product
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="en-price.html" class="nav__link">
+              Prices
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="en-team.html" class="nav__link">
+              Team
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="en-testing.html" class="nav__link">
+              Test
+            </a>
+          </li>
+        </ul>
+        <div class="language dropdown">
+          <button class="language__item dropdown__trigger">
+            <picture>
+              <source srcset="img/languages/en.svg" type="image/webp"><img src="img/languages/en.svg"
+                alt="Icon of Language">
+            </picture>
+            <span class="language__title">
+              EN
+            </span>
+            <i class="icon-arrow-dropdown"></i>
+          </button>
+          <div class="language__list dropdown__item">
+            <a href="index.html" class="language__item">
+              <picture>
+                <source srcset="img/languages/de.svg" type="image/webp"><img src="img/languages/de.svg"
+                  alt="Icon of Language">
+              </picture>
+              <span class="language__title">
+                DE
+              </span>
+            </a>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/nav-background.svg" type="image/webp"><img src="img/nav-background.svg"
+            alt="Background picture" class="nav__background">
+        </picture>
+      </nav>
+      <button class="burger"></button>
+    </div>
+  </header>
+  <main>
+    <!-- Hero -->
+    <section class="rate">
+      <div class="container">
+        <h1 class="site__title">Prices</h1>
+        <p class="site-description">
+          Our pricing is divided between employees who actively use PLANR (planners) and those employees who only view
+          the information relevant to them on their cell phone (viewers).
+        </p>
+        <div class="counter__table">
+          <div class="counter__item">
+            <div class="counter__text">
+              <h5>Number of Planners</h5>
+            </div>
+            <div class="counter__wrapper">
+              <input type="number" class="counter__input" min="1" max="999" value="1">
+              <div class="counter__buttons">
+                <div class="counter__plus">
+                  <i class="icon-arrow-dropdown"></i>
+                </div>
+                <div class="counter__minus">
+                  <i class="icon-arrow-dropdown"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="counter__item">
+            <div class="counter__text">
+              <h5>Number of viewers</h5>
+            </div>
+            <div class="counter__wrapper">
+              <input type="number" class="counter__input" min="1" max="999" value="1">
+              <div class="counter__buttons">
+                <div class="counter__plus">
+                  <i class="icon-arrow-dropdown"></i>
+                </div>
+                <div class="counter__minus">
+                  <i class="icon-arrow-dropdown"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="switch">
+          <span class="switch__text">Monthly</span>
+          <label class="switch__label">
+            <input class="switch__input" type="checkbox">
+          </label>
+          <span class="switch__text">Yearly</span>
+        </div>
+        <p class="site-description small">Pay annually and save up to 10 </p>
+        <div class="rate__table">
+          <div class="rate__wrapper">
+            <div class="rate-card">
+              <div class="rate-card__body">
+                <h3>Basic</h3>
+                <p class="site-description">Ideal for planning at the moment and the near future</p>
+                <ul>
+                  <li>
+                    Personnel planning and checking for double booking
+                  </li>
+                  <li>
+                    Planning of absences
+                  </li>
+                  <li>
+                    Planning of work equipment
+                  </li>
+                  <li>
+                    Individualization of working hours and holidays
+                  </li>
+                  <li>
+                    Various filtering options and calendar views
+                  </li>
+                </ul>
+                <span class="price">
+                  <strong>CHF 8</strong> / planners and month
+                </span>
+                <span class="price">
+                  <strong>CHF 3</strong> / viewers and month
+                </span>
+              </div>
+              <div class="rate-card__background">
+                <picture>
+                  <source srcset="img/rate/rate-1.svg" type="image/webp"><img src="img/rate/rate-1.svg"
+                    alt="Decor image">
+                </picture>
+              </div>
+              <button class="btn-primary modal-trigger">
+                Start
+              </button>
+            </div>
+          </div>
+          <div class="rate__wrapper">
+            <div class="rate-card">
+              <div class="rate-card__body">
+                <h3>Pro</h3>
+                <p class="site-description">Ideal for planning at the moment and the medium to long term future</p>
+                <ul>
+                  <li>
+                    Personnel planning and checking for double booking
+                  </li>
+                  <li>
+                    planning of absences
+                  </li>
+                  <li>
+                    planning of work equipment
+                  </li>
+                  <li>
+                    Individualization of working hours and holidays
+                  </li>
+                  <li>
+                    Various filter options and calendar views
+                  </li>
+                  <li>
+                    Planning of vacancies
+                  </li>
+                  <li>
+                    Automatic calculation of employee workload
+                  </li>
+                </ul>
+                <span class="price">
+                  <strong>CHF 10</strong> / planners and month
+                </span>
+                <span class="price">
+                  <strong>CHF 3</strong> / viewers and month
+                </span>
+              </div>
+              <div class="rate-card__background">
+                <picture>
+                  <source srcset="img/rate/rate-2.svg" type="image/webp"><img src="img/rate/rate-2.svg"
+                    alt="Decor image">
+                </picture>
+              </div>
+              <button class="btn-primary modal-trigger">
+                Start
+              </button>
+            </div>
+          </div>
+          <div class="rate__wrapper">
+            <div class="rate-card">
+              <div class="rate-card__body">
+                <h3>Enterprise</h3>
+                <p class="site-description">Ideal for larger companies with individual wishes or needs</p>
+                <ul>
+                  <li>
+                    Personnel planning and checking for double booking
+                  </li>
+                  <li>
+                    planning of absences
+                  </li>
+                  <li>
+                    planning of work equipment
+                  </li>
+                  <li>
+                    Individualization of working hours and holidays
+                  </li>
+                  <li>
+                    Various filter options and calendar views
+                  </li>
+                  <li>
+                    Planning of vacancies
+                  </li>
+                  <li>
+                    Automatic calculation of employee workload
+                  </li>
+                </ul>
+                <span class="price">
+                  Price on demand
+                </span>
+              </div>
+              <div class="rate-card__background">
+                <picture>
+                  <source srcset="img/rate/rate-3.svg" type="image/webp"><img src="img/rate/rate-3.svg"
+                    alt="Decor image">
+                </picture>
+              </div>
+              <button class="btn-primary modal-trigger">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rate__background">
+        <picture>
+          <source srcset="img/team-background.svg" type="image/webp"><img src="img/team-background.svg"
+            alt="Decor image">
+        </picture>
+      </div>
+    </section>
+    <!-- Contacts-modal -->
+    <div class="modal">
+      <div class="modal__container">
+        <form action="" id="form" class="modal__form">
+          <h4>Please, fill out the contact form. We will get back to you within 24h!</h4>
+          <div class="form__field">
+            <input type="text" name="user_name" id="user_name" placeholder="Name">
+          </div>
+          <div class="form__field">
+            <input type="email" name="user_email" id="user_email" placeholder="E-Mail">
+          </div>
+          <div class="form__field">
+            <textarea name="" id="" placeholder="Nachricht"></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Senden</button>
+        </form>
+        <button class="modal__close modal-trigger">
+          <i class="icon-close"></i>
+        </button>
+      </div>
+      <div class="modal__container submit">
+        <h4>Thank you, your information was sent successfully!</h4>
+        <button class="btn-primary modal-trigger">
+          Okay
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="en-index.html" class="logo">
+        <picture>
+          <source srcset="img/logo.svg" type="image/webp"><img src="img/logo.svg" alt="Logo of Planr">
+        </picture>
+      </a>
+      <div class="footer__wrapper">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="product.html" class="footer__link">
+              Product
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="price.html" class="footer__link">
+              Prices
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="team.html" class="footer__link">
+              Team
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="testing.html" class="footer__link">
+              Test
+            </a>
+          </li>
+        </ul>
+        <div class="footer__software">
+          <picture>
+            <source srcset="img/footer-software.svg" type="image/webp"><img src="img/footer-software.svg"
+              alt="Icon of Briefcase">
+          </picture>
+          <span>Swiss Made Software von Codeto GmbH</span>
+        </div>
+      </div>
+      <div class="footer__wrapper secondary">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              FAQ
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              Impressum
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              Datenschutzerklärung
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              AGB
+            </a>
+          </li>
+        </ul>
+        <span class="footer__copyright">
+          @ 2020 - 2021 codeto GmbH
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Import Script's -->
+  <script src="./js/vendor.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

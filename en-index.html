@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planr</title>
+
+  <!-- Import Style's -->
+  <link rel="stylesheet" href="./css/vendor.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="en-index.html" class="logo">
+        <picture>
+          <source srcset="img/logo.svg" type="image/webp"><img src="img/logo.svg" alt="Logo of Planr">
+        </picture>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="en-product.html" class="nav__link">
+              Product
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="en-price.html" class="nav__link">
+              Prices
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="en-team.html" class="nav__link">
+              Team
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="en-testing.html" class="nav__link">
+              Test
+            </a>
+          </li>
+        </ul>
+        <div class="language dropdown">
+          <button class="language__item dropdown__trigger">
+            <picture>
+              <source srcset="img/languages/en.svg" type="image/webp"><img src="img/languages/en.svg"
+                alt="Icon of Language">
+            </picture>
+            <span class="language__title">
+              EN
+            </span>
+            <i class="icon-arrow-dropdown"></i>
+          </button>
+          <div class="language__list dropdown__item">
+            <a href="index.html" class="language__item">
+              <picture>
+                <source srcset="img/languages/de.svg" type="image/webp"><img src="img/languages/de.svg"
+                  alt="Icon of Language">
+              </picture>
+              <span class="language__title">
+                DE
+              </span>
+            </a>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/nav-background.svg" type="image/webp"><img src="img/nav-background.svg"
+            alt="Background picture" class="nav__background">
+        </picture>
+      </nav>
+      <button class="burger"></button>
+    </div>
+  </header>
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Navigating the planning into calm waters</h1>
+        <div class="hero__image">
+          <picture>
+            <source srcset="img/hero-background.svg" type="image/webp"><img src="img/hero-background.svg"
+              alt="Decor image">
+          </picture>
+        </div>
+        <p class="hero__description">PLANR brings together what simplifies the planning, communication and information
+          transfer of every company in the construction industry!</p>
+      </div>
+      <div class="swiper plan__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-1.svg" type="image/webp"><img src="img/plan/icon-1.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Personnel planning
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-2.svg" type="image/webp"><img src="img/plan/icon-2.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Absence planning
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-3.svg" type="image/webp"><img src="img/plan/icon-3.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Vacancy planning
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-4.svg" type="image/webp"><img src="img/plan/icon-4.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Work resource planning
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-5.svg" type="image/webp"><img src="img/plan/icon-5.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Calculation of workload
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-6.svg" type="image/webp"><img src="img/plan/icon-6.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Individualization of working hours and holidays
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="plan__card">
+              <div class="plan__icon">
+                <picture>
+                  <source srcset="img/plan/icon-7.svg" type="image/webp"><img src="img/plan/icon-7.svg"
+                    alt="Decor icon">
+                </picture>
+              </div>
+              <p class="site-description">
+                Different views and filter options
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-navigation">
+          <div class="swiper-button-prev plan__button-prev"></div>
+          <div class="swiper-pagination plan__pagination"></div>
+          <div class="swiper-button-next plan__button-next"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="video">
+          <div class="video__preview">
+            <picture>
+              <source srcset="img/video-preview.webp" type="image/webp"><img src="img/video-preview.png"
+                alt="Video preview">
+            </picture>
+          </div>
+          <button class="video__play">
+            <span class="video__play-content">
+              <i class="icon-play"></i>
+            </span>
+          </button>
+          <div class="video__item">
+            <iframe src="https://www.youtube.com/embed/IUX1GNpdilA" title="YouTube video player" frameborder="0"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Benefits -->
+    <section class="benefits">
+      <div class="container">
+        <h2>Advantages of PLANR</h2>
+        <div class="swiper benefits__slider">
+          <div class="swiper-wrapper benefits__wrapper">
+            <div class="swiper-slide benefits__slide">
+              <div class="benefits__card">
+                <h3 class="benefits__number">01</h3>
+                <p class="site-description">
+                  Simple user interface and intuitive operation via drag & drop. Due to individually createable filters
+                  and different views, the clear overview is guaranteed even with large amounts of data.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide benefits__slide">
+              <div class="benefits__card">
+                <h3 class="benefits__number">02</h3>
+                <p class="site-description">
+                  A product of cedeot GmbH, developed and hosted in Switzerland and therefore subject to Swiss data
+                  protection conditions.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide benefits__slide">
+              <div class="benefits__card">
+                <h3 class="benefits__number">03</h3>
+                <p class="site-description">
+                  Do you have any wishes or ideas? Together we evaluate your needs and customize PLANR individually for
+                  you. We want to grow together with you.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide benefits__slide">
+              <div class="benefits__card">
+                <h3 class="benefits__number">04</h3>
+                <p class="site-description">
+                  Easy system integration is ensured to common ERPs. PLANR is a cloud-based software and therefore
+                  requires no installation and is ready for you at any time.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide benefits__slide">
+              <div class="benefits__card">
+                <h3 class="benefits__number">05</h3>
+                <p class="site-description">
+                  Whether desktop, notebook or tablet: Use PLANR from anywhere directly via web browser. The project
+                  manager plans and assigns tasks, and all employees receive the relevant information on their cell
+                  phones.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide benefits__slide">
+              <div class="benefits__card">
+                <h3 class="benefits__number">06</h3>
+                <p class="site-description">
+                  By using business intelligence, planning can be largely automated in the longer term if desired.
+                  Bottlenecks and free capacities are displayed in order to act and optimize at an early stage.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-navigation">
+            <div class="swiper-button-prev benefits__button-prev"></div>
+            <div class="swiper-pagination benefits__pagination"></div>
+            <div class="swiper-button-next benefits__button-next"></div>
+          </div>
+        </div>
+      </div>
+      <div class="benefits__background">
+        <picture>
+          <source srcset="img/benefits-background.svg" type="image/webp"><img src="img/benefits-background.svg"
+            alt="Decor image">
+        </picture>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>Kunden</h2>
+        <div class="testimonials__card">
+          <div class="icon-quote">
+            <picture>
+              <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+            </picture>
+          </div>
+          <p class="site-description">
+            "After a lengthy evaluation, we found PLANR to be a
+            professional tool for scheduling our employees. It was
+            important for us that we can plan project business with a
+            planning horizon of weeks and months with the same
+            application as service orders, which are more of an hourly
+            business... Other highlights for us are the prevention of
+            double bookings, the possibility to save the exact working
+            times as well as the various filters. I am convinced that
+            by using PLANR we have reduced our idle times and
+            optimized employee assignments: PLANR ensures that we are
+            in the right place at the right time, and that pleases not
+            only us, but above all our customers."
+          </p>
+          <div class="testimonials__photo">
+            <picture>
+              <source srcset="img/testimonials/author-1.webp" type="image/webp"><img src="img/testimonials/author-1.png"
+                alt="Author photo">
+            </picture>
+          </div>
+          <h3 class="testimonials__author">
+            Bruno Huonder
+          </h3>
+          <span class="testimonials__company">
+            CEO Baumann Koelliker Gruppe
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- Contacts -->
+    <section class="contacts">
+      <div class="container">
+        <h3>Contact us for a free consultation of our products, a demo or general questions. Will contact you within 24h
+          and look forward to hearing from you.
+        </h3>
+        <form action="" id="form" class="form">
+          <div class="form__field">
+            <input type="text" name="user_name" id="user_name" placeholder="Name">
+          </div>
+          <div class="form__field">
+            <input type="text" name="user_company" id="user_company" placeholder="Company">
+          </div>
+          <div class="form__field">
+            <input type="email" name="user_email" id="user_email" placeholder="E-mail">
+          </div>
+          <div class="form__field">
+            <textarea name="" id="" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn-primary">
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="contacts__background">
+        <picture>
+          <source srcset="img/contacts-background.svg" type="image/webp"><img src="img/contacts-background.svg"
+            alt="Background image">
+        </picture>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="en-index.html" class="logo">
+        <picture>
+          <source srcset="img/logo.svg" type="image/webp"><img src="img/logo.svg" alt="Logo of Planr">
+        </picture>
+      </a>
+      <div class="footer__wrapper">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="product.html" class="footer__link">
+              Product
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="price.html" class="footer__link">
+              Prices
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="team.html" class="footer__link">
+              Team
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="testing.html" class="footer__link">
+              Test
+            </a>
+          </li>
+        </ul>
+        <div class="footer__software">
+          <picture>
+            <source srcset="img/footer-software.svg" type="image/webp"><img src="img/footer-software.svg"
+              alt="Icon of Briefcase">
+          </picture>
+          <span>Swiss Made Software von Codeto GmbH</span>
+        </div>
+      </div>
+      <div class="footer__wrapper secondary">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              FAQ
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              Impressum
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              Datenschutzerklärung
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              AGB
+            </a>
+          </li>
+        </ul>
+        <span class="footer__copyright">
+          @ 2020 - 2021 codeto GmbH
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Import Script's -->
+  <script src="./js/vendor.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
