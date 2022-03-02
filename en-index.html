@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <title>Planr</title>
 
   <!-- Import Style's -->
@@ -41,7 +48,7 @@
           </li>
           <li class="nav__item">
             <a href="en-testing.html" class="nav__link">
-              Test
+              Try for free
             </a>
           </li>
         </ul>
@@ -59,11 +66,11 @@
           <div class="language__list dropdown__item">
             <a href="index.html" class="language__item">
               <picture>
-                <source srcset="img/languages/de.svg" type="image/webp"><img src="img/languages/de.svg"
+                <source srcset="img/languages/ch.svg" type="image/webp"><img src="img/languages/ch.svg"
                   alt="Icon of Language">
               </picture>
               <span class="language__title">
-                DE
+                CH
               </span>
             </a>
           </div>
@@ -219,7 +226,7 @@
           <div class="swiper-wrapper benefits__wrapper">
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">01</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Simple user interface and intuitive operation via drag & drop. Due to individually createable filters
                   and different views, the clear overview is guaranteed even with large amounts of data.
@@ -237,7 +244,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">03</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Do you have any wishes or ideas? Together we evaluate your needs and customize PLANR individually for
                   you. We want to grow together with you.
@@ -246,7 +253,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">04</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Easy system integration is ensured to common ERPs. PLANR is a cloud-based software and therefore
                   requires no installation and is ready for you at any time.
@@ -255,7 +262,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">05</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Whether desktop, notebook or tablet: Use PLANR from anywhere directly via web browser. The project
                   manager plans and assigns tasks, and all employees receive the relevant information on their cell
@@ -265,7 +272,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">06</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   By using business intelligence, planning can be largely automated in the longer term if desired.
                   Bottlenecks and free capacities are displayed in order to act and optimize at an early stage.
@@ -291,38 +298,119 @@
     <section class="testimonials">
       <div class="container">
         <h2>Kunden</h2>
-        <div class="testimonials__card">
-          <div class="icon-quote">
-            <picture>
-              <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
-            </picture>
+        <div class="swiper testimonials__slider">
+          <div class="swiper-wrapper testimonials__wrapper">
+            <div class="swiper-slide">
+              <div class="testimonials__card">
+                <div class="icon-quote">
+                  <picture>
+                    <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+                  </picture>
+                </div>
+                <p class="site-description">
+                  "After a lengthy evaluation, we found PLANR to be a
+                  professional tool for scheduling our employees. It was
+                  important for us that we can plan project business with a
+                  planning horizon of weeks and months with the same
+                  application as service orders, which are more of an hourly
+                  business... Other highlights for us are the prevention of
+                  double bookings, the possibility to save the exact working
+                  times as well as the various filters. I am convinced that
+                  by using PLANR we have reduced our idle times and
+                  optimized employee assignments: PLANR ensures that we are
+                  in the right place at the right time, and that pleases not
+                  only us, but above all our customers."
+                </p>
+                <div class="testimonials__photo">
+                  <picture>
+                    <source srcset="img/testimonials/author-1.webp" type="image/webp"><img
+                      src="img/testimonials/author-1.png" alt="Author photo">
+                  </picture>
+                </div>
+                <h3 class="testimonials__author">
+                  Bruno Huonder
+                </h3>
+                <span class="testimonials__company">
+                  CEO Baumann Koelliker Gruppe
+                </span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials__card">
+                <div class="icon-quote">
+                  <picture>
+                    <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+                  </picture>
+                </div>
+                <p class="site-description">
+                  "After a lengthy evaluation, we found PLANR to be a
+                  professional tool for scheduling our employees. It was
+                  important for us that we can plan project business with a
+                  planning horizon of weeks and months with the same
+                  application as service orders, which are more of an hourly
+                  business... Other highlights for us are the prevention of
+                  double bookings, the possibility to save the exact working
+                  times as well as the various filters. I am convinced that
+                  by using PLANR we have reduced our idle times and
+                  optimized employee assignments: PLANR ensures that we are
+                  in the right place at the right time, and that pleases not
+                  only us, but above all our customers."
+                </p>
+                <div class="testimonials__photo">
+                  <picture>
+                    <source srcset="img/testimonials/author-1.webp" type="image/webp"><img
+                      src="img/testimonials/author-1.png" alt="Author photo">
+                  </picture>
+                </div>
+                <h3 class="testimonials__author">
+                  Bruno Huonder
+                </h3>
+                <span class="testimonials__company">
+                  CEO Baumann Koelliker Gruppe
+                </span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials__card">
+                <div class="icon-quote">
+                  <picture>
+                    <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+                  </picture>
+                </div>
+                <p class="site-description">
+                  "After a lengthy evaluation, we found PLANR to be a
+                  professional tool for scheduling our employees. It was
+                  important for us that we can plan project business with a
+                  planning horizon of weeks and months with the same
+                  application as service orders, which are more of an hourly
+                  business... Other highlights for us are the prevention of
+                  double bookings, the possibility to save the exact working
+                  times as well as the various filters. I am convinced that
+                  by using PLANR we have reduced our idle times and
+                  optimized employee assignments: PLANR ensures that we are
+                  in the right place at the right time, and that pleases not
+                  only us, but above all our customers."
+                </p>
+                <div class="testimonials__photo">
+                  <picture>
+                    <source srcset="img/testimonials/author-1.webp" type="image/webp"><img
+                      src="img/testimonials/author-1.png" alt="Author photo">
+                  </picture>
+                </div>
+                <h3 class="testimonials__author">
+                  Bruno Huonder
+                </h3>
+                <span class="testimonials__company">
+                  CEO Baumann Koelliker Gruppe
+                </span>
+              </div>
+            </div>
           </div>
-          <p class="site-description">
-            "After a lengthy evaluation, we found PLANR to be a
-            professional tool for scheduling our employees. It was
-            important for us that we can plan project business with a
-            planning horizon of weeks and months with the same
-            application as service orders, which are more of an hourly
-            business... Other highlights for us are the prevention of
-            double bookings, the possibility to save the exact working
-            times as well as the various filters. I am convinced that
-            by using PLANR we have reduced our idle times and
-            optimized employee assignments: PLANR ensures that we are
-            in the right place at the right time, and that pleases not
-            only us, but above all our customers."
-          </p>
-          <div class="testimonials__photo">
-            <picture>
-              <source srcset="img/testimonials/author-1.webp" type="image/webp"><img src="img/testimonials/author-1.png"
-                alt="Author photo">
-            </picture>
-          </div>
-          <h3 class="testimonials__author">
-            Bruno Huonder
-          </h3>
-          <span class="testimonials__company">
-            CEO Baumann Koelliker Gruppe
-          </span>
+        </div>
+        <div class="swiper-navigation">
+          <div class="swiper-button-prev testimonials__button-prev"></div>
+          <div class="swiper-pagination testimonials__pagination"></div>
+          <div class="swiper-button-next testimonials__button-next"></div>
         </div>
       </div>
     </section>
@@ -370,36 +458,35 @@
       <div class="footer__wrapper">
         <ul class="footer__list">
           <li class="footer__item">
-            <a href="product.html" class="footer__link">
+            <a href="en-product.html" class="footer__link">
               Product
             </a>
           </li>
           <li class="footer__item">
-            <a href="price.html" class="footer__link">
+            <a href="en-price.html" class="footer__link">
               Prices
             </a>
           </li>
           <li class="footer__item">
-            <a href="team.html" class="footer__link">
+            <a href="en-team.html" class="footer__link">
               Team
             </a>
           </li>
           <li class="footer__item">
-            <a href="testing.html" class="footer__link">
-              Test
+            <a href="en-testing.html" class="footer__link">
+              Try for free
             </a>
           </li>
         </ul>
         <div class="footer__software">
           <picture>
-            <source srcset="img/footer-software.svg" type="image/webp"><img src="img/footer-software.svg"
+            <source srcset="img/swiss-made-software.svg" type="image/webp"><img src="img/swiss-made-software.svg"
               alt="Icon of Briefcase">
           </picture>
-          <span>Swiss Made Software von Codeto GmbH</span>
         </div>
       </div>
       <div class="footer__wrapper secondary">
-        <ul class="footer__list">
+        <!-- <ul class="footer__list">
           <li class="footer__item">
             <a href="#" class="footer__link">
               FAQ
@@ -420,10 +507,10 @@
               AGB
             </a>
           </li>
-        </ul>
-        <span class="footer__copyright">
+        </ul> -->
+        <a href="https://codeto.ch/" class="footer__copyright">
           @ 2020 - 2021 codeto GmbH
-        </span>
+          </span>
       </div>
     </div>
   </footer>

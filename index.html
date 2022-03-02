@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <title>Planr</title>
 
   <!-- Import Style's -->
@@ -40,18 +47,18 @@
           </li>
           <li class="nav__item">
             <a href="testing.html" class="nav__link">
-              Testen
+              Kostenlos Testen
             </a>
           </li>
         </ul>
         <div class="language dropdown">
           <button class="language__item dropdown__trigger">
             <picture>
-              <source srcset="img/languages/de.svg" type="image/webp"><img src="img/languages/de.svg"
+              <source srcset="img/languages/ch.svg" type="image/webp"><img src="img/languages/ch.svg"
                 alt="Icon of Language">
             </picture>
             <span class="language__title">
-              DE
+              CH
             </span>
             <i class="icon-arrow-dropdown"></i>
           </button>
@@ -218,7 +225,7 @@
           <div class="swiper-wrapper benefits__wrapper">
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">01</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Einfache Benutzeroberfläche und intuitive Bedienung mittels Drag & Drop. Durch individuell erstellbare
                   Filter und verschiedene Ansichten ist auch bei grossen Datenmengen der Überblick garantiert.
@@ -227,7 +234,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">02</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Ein Produkt von cedeot GmbH, wird in der Schweiz entwickelt und gehostet und unterliegt somit den
                   schweizerischen Datenschutzbedingungen.
@@ -236,7 +243,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">03</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Haben Sie Wünsche oder Ideen? Zusamen evaluieren wir Ihre Bedürfnisse und passen PLANR individuell für
                   Sie an. Wir wollen mit Ihnen zusammen wachsen.
@@ -245,7 +252,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">04</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Mittels Schnittstellen zu den geläufigen ERPs ist eine einfache Systemintegration sichergestellt.
                   PLANR ist eine Cloudbasierte Software und erfordert deshalb keine Installation und ist jederzeit
@@ -255,7 +262,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">05</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Egal ob Desktop, Notebook oder Tablet: Nutzen Sie PLANR von überall aus direkt via Webbrowser. Die
                   Projektleitende Person plant und teilt ein und alle Mitarbeitenden erhalten die relevanten
@@ -265,7 +272,7 @@
             </div>
             <div class="swiper-slide benefits__slide">
               <div class="benefits__card">
-                <h3 class="benefits__number">06</h3>
+                <img class="benefits__icon" src="./img/check-icon.svg">
                 <p class="site-description">
                   Durch den Einsatz von Business Intelligence kann die Planung auf Wunsch längerfristig weitgehend
                   automatisiert werden. Engpässe und freie Kapazitäten werden angezeigt, um frühzeitig zu handeln und
@@ -292,39 +299,122 @@
     <section class="testimonials">
       <div class="container">
         <h2>Kunden</h2>
-        <div class="testimonials__card">
-          <div class="icon-quote">
-            <picture>
-              <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
-            </picture>
+        <div class="swiper testimonials__slider">
+          <div class="swiper-wrapper testimonials__wrapper">
+            <div class="swiper-slide">
+              <div class="testimonials__card">
+                <div class="icon-quote">
+                  <picture>
+                    <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+                  </picture>
+                </div>
+                <p class="site-description">
+                  Mit PLANR haben wir nach längerer Evaluation ein
+                  professionelles Tool für die Einsatzplanung unserer
+                  Mitarbeitenden gefunden. Für uns war wichtig, dass wir das
+                  Projektgeschäft mit einem Planungshorizont von Wochen und
+                  Monaten mit der gleichen Applikation planen können wie
+                  Serviceaufträge, welche eher Stundengeschäfte sind.
+                </p>
+                <p class="site-description">
+                  Ich bin überzeugt, dass wir mit dem Einsatz von PLANR
+                  unsere Leerzeiten reduziert und die Mitarbeitereinsätze
+                  optimiert haben: PLANR sorgt dafür, dass wir zur richtigen
+                  Zeit am richtigen Ort sind, und das freut nicht nur uns,
+                  sondern vor allem unsere Kunden.
+                </p>
+                <div class="testimonials__photo">
+                  <picture>
+                    <source srcset="img/testimonials/author-1.webp" type="image/webp"><img
+                      src="img/testimonials/author-1.png" alt="Author photo">
+                  </picture>
+                </div>
+                <h3 class="testimonials__author">
+                  Bruno Huonder
+                </h3>
+                <span class="testimonials__company">
+                  Leiter Baumann Koelliker Gruppe
+                </span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials__card">
+                <div class="icon-quote">
+                  <picture>
+                    <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+                  </picture>
+                </div>
+                <p class="site-description">
+                  Mit PLANR haben wir nach längerer Evaluation ein
+                  professionelles Tool für die Einsatzplanung unserer
+                  Mitarbeitenden gefunden. Für uns war wichtig, dass wir das
+                  Projektgeschäft mit einem Planungshorizont von Wochen und
+                  Monaten mit der gleichen Applikation planen können wie
+                  Serviceaufträge, welche eher Stundengeschäfte sind.
+                </p>
+                <div class="site-description">
+                  Ich bin überzeugt, dass wir mit dem Einsatz von PLANR
+                  unsere Leerzeiten reduziert und die Mitarbeitereinsätze
+                  optimiert haben: PLANR sorgt dafür, dass wir zur richtigen
+                  Zeit am richtigen Ort sind, und das freut nicht nur uns,
+                  sondern vor allem unsere Kunden.
+                </div>
+                <div class="testimonials__photo">
+                  <picture>
+                    <source srcset="img/testimonials/author-1.webp" type="image/webp"><img
+                      src="img/testimonials/author-1.png" alt="Author photo">
+                  </picture>
+                </div>
+                <h3 class="testimonials__author">
+                  Bruno Huonder
+                </h3>
+                <span class="testimonials__company">
+                  Leiter Baumann Koelliker Gruppe
+                </span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials__card">
+                <div class="icon-quote">
+                  <picture>
+                    <source srcset="img/quote.svg" type="image/webp"><img src="img/quote.svg" alt="Icon of Quotes">
+                  </picture>
+                </div>
+                <p class="site-description">
+                  Mit PLANR haben wir nach längerer Evaluation ein
+                  professionelles Tool für die Einsatzplanung unserer
+                  Mitarbeitenden gefunden. Für uns war wichtig, dass wir das
+                  Projektgeschäft mit einem Planungshorizont von Wochen und
+                  Monaten mit der gleichen Applikation planen können wie
+                  Serviceaufträge, welche eher Stundengeschäfte sind.
+                </p>
+                <div class="site-description">
+                  Ich bin überzeugt, dass wir mit dem Einsatz von PLANR
+                  unsere Leerzeiten reduziert und die Mitarbeitereinsätze
+                  optimiert haben: PLANR sorgt dafür, dass wir zur richtigen
+                  Zeit am richtigen Ort sind, und das freut nicht nur uns,
+                  sondern vor allem unsere Kunden.
+                </div>
+                <div class="testimonials__photo">
+                  <picture>
+                    <source srcset="img/testimonials/author-1.webp" type="image/webp"><img
+                      src="img/testimonials/author-1.png" alt="Author photo">
+                  </picture>
+                </div>
+                <h3 class="testimonials__author">
+                  Bruno Huonder
+                </h3>
+                <span class="testimonials__company">
+                  Leiter Baumann Koelliker Gruppe
+                </span>
+              </div>
+            </div>
           </div>
-          <p class="site-description">
-            Mit PLANR haben wir nach längerer Evaluation ein
-            professionelles Tool für die Einsatzplanung unserer
-            Mitarbeitenden gefunden. Für uns war wichtig, dass wir das
-            Projektgeschäft mit einem Planungshorizont von Wochen und
-            Monaten mit der gleichen Applikation planen können wie
-            Serviceaufträge, welche eher Stundengeschäfte sind.
-          </p>
-          <p class="site-description">
-            Ich bin überzeugt, dass wir mit dem Einsatz von PLANR
-            unsere Leerzeiten reduziert und die Mitarbeitereinsätze
-            optimiert haben: PLANR sorgt dafür, dass wir zur richtigen
-            Zeit am richtigen Ort sind, und das freut nicht nur uns,
-            sondern vor allem unsere Kunden.
-          </p>
-          <div class="testimonials__photo">
-            <picture>
-              <source srcset="img/testimonials/author-1.webp" type="image/webp"><img src="img/testimonials/author-1.png"
-                alt="Author photo">
-            </picture>
-          </div>
-          <h3 class="testimonials__author">
-            Bruno Huonder
-          </h3>
-          <span class="testimonials__company">
-            Leiter Baumann Koelliker Gruppe
-          </span>
+        </div>
+        <div class="swiper-navigation">
+          <div class="swiper-button-prev testimonials__button-prev"></div>
+          <div class="swiper-pagination testimonials__pagination"></div>
+          <div class="swiper-button-next testimonials__button-next"></div>
         </div>
       </div>
     </section>
@@ -387,20 +477,19 @@
           </li>
           <li class="footer__item">
             <a href="testing.html" class="footer__link">
-              Testen
+              Kostenlos Testen
             </a>
           </li>
         </ul>
         <div class="footer__software">
           <picture>
-            <source srcset="img/footer-software.svg" type="image/webp"><img src="img/footer-software.svg"
+            <source srcset="img/swiss-made-software.svg" type="image/webp"><img src="img/swiss-made-software.svg"
               alt="Icon of Briefcase">
           </picture>
-          <span>Swiss Made Software von Codeto GmbH</span>
         </div>
       </div>
       <div class="footer__wrapper secondary">
-        <ul class="footer__list">
+        <!-- <ul class="footer__list">
           <li class="footer__item">
             <a href="#" class="footer__link">
               FAQ
@@ -421,10 +510,10 @@
               AGB
             </a>
           </li>
-        </ul>
-        <span class="footer__copyright">
+        </ul> -->
+        <a href="https://codeto.ch/" class="footer__copyright">
           @ 2020 - 2021 codeto GmbH
-        </span>
+        </a>
       </div>
     </div>
   </footer>

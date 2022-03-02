@@ -207,7 +207,7 @@ document.addEventListener("click", function (event) {
 }, false); // Plan slider
 
 var planSlider = new Swiper(".plan__slider", {
-  loop: false,
+  loop: true,
   slidesPerView: 1,
   spaceBetween: 30,
   speed: 300,
@@ -227,6 +227,19 @@ var planSlider = new Swiper(".plan__slider", {
     prevEl: ".plan__button-prev"
   }
 });
+var testimonialSlider = new Swiper(".testimonials__slider", {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  speed: 300,
+  pagination: {
+    el: ".testimonials__pagination"
+  },
+  navigation: {
+    nextEl: ".testimonials__button-next",
+    prevEl: ".testimonials__button-prev"
+  }
+});
 
 if (window.matchMedia("(min-width: 992px)").matches) {
   // Custom scrollbar
@@ -236,7 +249,7 @@ if (window.matchMedia("(min-width: 992px)").matches) {
 } else {
   // Benefits slider
   var benefitsSlider = new Swiper(".benefits__slider", {
-    loop: false,
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 30,
     speed: 300,
