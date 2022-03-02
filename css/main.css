@@ -782,6 +782,21 @@ h2 {
   font-weight: 350;
   line-height: 1.6;
   text-decoration: none;
+  position: relative;
+}
+.footer__copyright:before {
+  content: '';
+  background: #DCDCDC;
+  height: 2px;
+  width: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all .3s ease-in-out;
+}
+.footer__copyright:hover:before {
+  background: #6D6D6D;
 }
 
 .header {
