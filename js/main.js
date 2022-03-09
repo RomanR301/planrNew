@@ -9,9 +9,37 @@ var lockScroll = function lockScroll() {
   } else {
     null;
   }
-}; // Click on overlay
+}; 
+
+// plan popup
+
+const popupTriggers = document.querySelectorAll('.plan-modal-trigger')
+const modalCloseTrigger = document.querySelector('.plan-popup__close')
+const bodyBlackout = document.querySelector('.body-blackout')
+
+popupTriggers.forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    const { popupTrigger } = trigger.dataset
+    const popupModal = document.querySelector(`[data-popup-modal="${popupTrigger}"]`)
+    popupModal.classList.add('js-show')
+    bodyBlackout.classList.add('is-blacked-out')
+
+    popupModal.querySelector('.plan-popup__close').addEventListener('click', () => {
+       popupModal.classList.remove('js-show')
+       bodyBlackout.classList.remove('is-blacked-out')
+    })
+    bodyBlackout.addEventListener('click', () => {
+      popupModal.classList.remove('js-show')
+      bodyBlackout.classList.remove('is-blacked-out')
+    })
+  })
+})
 
 
+
+
+
+// Click on overlay
 var overlay = document.querySelector(".overlay");
 var form = document.querySelector("#form");
 overlay === null || overlay === void 0 ? void 0 : overlay.addEventListener("click", function () {

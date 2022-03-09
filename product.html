@@ -84,6 +84,7 @@
     </div>
   </header>
   <main>
+    <div class="body-blackout"></div>
     <!-- Product -->
     <section class="product">
       <div class="container">
@@ -114,7 +115,7 @@
         </div>
         <h2>PLANR plant</h2>
       </div>
-      <div class="swiper plan__slider">
+      <div class="swiper plan__slider product-plan__slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="plan__card">
@@ -127,6 +128,7 @@
               <p class="site-description">
                 Personalplanung
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-1">Mehr sehen</div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -140,6 +142,7 @@
               <p class="site-description">
                 Absenzenplanung
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-2">Mehr sehennnn</div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -153,6 +156,7 @@
               <p class="site-description">
                 Vakanzenplanung
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-3">Mehr sehen</div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -166,6 +170,7 @@
               <p class="site-description">
                 Arbeitmittelplanung
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-4">Mehr sehen</div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -179,6 +184,7 @@
               <p class="site-description">
                 Berechnung der Auslastung
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-5">Mehr sehen</div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -192,6 +198,7 @@
               <p class="site-description">
                 Individualisierung der Arbeitszeiten und Feiertag
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-6">Mehr sehen</div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -205,6 +212,7 @@
               <p class="site-description">
                 Verschiedene Ansichten und Filtermöglichkeiten
               </p>
+              <div class="plan-modal-trigger" data-popup-trigger="plan-popup-7">Mehr sehen</div>
             </div>
           </div>
         </div>
@@ -241,7 +249,76 @@
       </div>
     </section>
   </main>
-
+  <div class="plan-popup" data-popup-modal="plan-popup-1">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Personalplanung</div>
+      <ul class="plan-popup__description">
+        <li>Bedienerfreundliche Planung mittels drag & dorp</li>
+        <li>Mehrer Personen gleichzeitig anwählen und verplanen</li>
+      </ul>
+      <div class="plan-popup__image">
+        <img src="./img/plan/personal-planning.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="plan-popup" data-popup-modal="plan-popup-2">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Absenzenplanung</div>
+      <div class="plan-popup__image">
+        <img src="./img/plan/absence-planning.jpg" alt="Absenzenplanung">
+      </div>
+    </div>
+  </div>
+  <div class="plan-popup" data-popup-modal="plan-popup-3">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Vakanzenplanung</div>
+      <ul class="plan-popup__description">
+        <li>Jobbeschreibung </li>
+      </ul>
+      <div class="plan-popup__image">
+        <img src="./img/plan/vacancy-planning.jpg" alt="Vakanzenplanung">
+      </div>
+    </div>
+  </div>
+  <div class="plan-popup" data-popup-modal="plan-popup-4">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Arbeitmittelplanung</div>
+      <div class="plan-popup__image">
+        <img src="./img/plan/work-resource-planning.jpg" alt="Arbeitmittelplanung">
+      </div>
+    </div>
+  </div>
+  <div class="plan-popup" data-popup-modal="plan-popup-5">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Berechnung der Auslastung</div>
+      <div class="plan-popup__image">
+        <img src="./img/plan/calculation-of-workload.jpg" alt="Berechnung der Auslastung">
+      </div>
+    </div>
+  </div>
+  <div class="plan-popup" data-popup-modal="plan-popup-6">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Individualisierung der Arbeitszeiten und Feiertag</div>
+      <div class="plan-popup__image">
+        <img src="./img/plan/individualization-of-working-hours-and-holidays.jpg" alt="Individualisierung der Arbeitszeiten und Feiertag">
+      </div>
+    </div>
+  </div>
+  <div class="plan-popup" data-popup-modal="plan-popup-7">
+    <div class="plan-content">
+      <div class="plan-popup__close"></div>
+      <div class="plan-popup__title">Verschiedene Ansichten und Filtermöglichkeiten</div>
+      <div class="plan-popup__image">
+        <img src="./img/plan/different-views-and-filter-options.jpg" alt="Verschiedene Ansichten und Filtermöglichkeiten">
+      </div>
+    </div>
+  </div>
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
