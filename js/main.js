@@ -120,8 +120,8 @@ counterItem === null || counterItem === void 0 ? void 0 : counterItem.forEach(fu
     totalBasic.innerHTML = (counterPlannersVal * multiplierPlannerBasic) + (counterViewersVal * multiplierViewer);
     totalPro.innerHTML = (counterPlannersVal * multiplierPlannerPro) + (counterViewersVal * multiplierViewer);
 
-    discountBasic.innerHTML = Math.round(totalBasic.innerHTML * 0.9);
-    discountPro.innerHTML = Math.round(totalPro.innerHTML * 0.9);
+    discountBasic.innerHTML = Math.round(totalBasic.innerHTML * 0.85);
+    discountPro.innerHTML = Math.round(totalPro.innerHTML * 0.85);
   }
 }); 
 
@@ -286,10 +286,10 @@ var planSlider = new Swiper(".plan__slider", {
   }
 });
 var testimonialSlider = new Swiper(".testimonials__slider", {
-  loop: true,
   slidesPerView: 1,
   spaceBetween: 30,
   speed: 300,
+  watchOverflow: !0,
   pagination: {
     el: ".testimonials__pagination"
   },

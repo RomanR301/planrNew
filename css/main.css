@@ -1562,7 +1562,7 @@ h2 {
 }
 
 .rate .site-description.small {
-  max-width: 340px;
+  max-width: 400px;
 }
 
 .rate .switch {
@@ -1582,7 +1582,7 @@ h2 {
   -ms-flex-pack: start;
   justify-content: flex-start;
   padding-top: 16px;
-  margin: -15px;
+  margin: 10px -15px 0 -15px;
 }
 
 .rate__wrapper {
@@ -1613,7 +1613,9 @@ h2 {
   -webkit-box-shadow: 0px 4px 30px rgba(188, 188, 188, 0.25);
   box-shadow: 0px 4px 30px rgba(188, 188, 188, 0.25);
 }
-
+.rate-card .btn-primary {
+  padding: 14px 30px;
+}
 .rate-card__body {
   padding: 0 20px;
 }
@@ -1686,6 +1688,11 @@ h2 {
   margin-bottom: 32px;
 }
 
+.rate-card .rate-card__no-price .price {
+  margin-bottom: 71px;
+}
+
+
 .rate-card .discount {
   display: none;
 }
@@ -1719,13 +1726,28 @@ h2 {
 .rate-card .total-text {
   margin-right: 8px;
 }
-.rate-card .total:before {
+/* .rate-card .total:before {
   content: '('
 }
 .rate-card .total:after {
   content: ')'
+} */
+.price-month-eng:after {
+  content: '/month';
+  font-size: 16px;
 }
-
+.price-year-eng:after {
+  content: '/year';
+  font-size: 18px;
+}
+.price-month-de:after {
+  content: '/Monat';
+  font-size: 16px;
+}
+.price-year-de:after {
+  content: '/Jahr';
+  font-size: 18px;
+}
 .rate-card__background picture,
 .rate-card__background img,
 .rate-card__background source {
@@ -2520,6 +2542,7 @@ h2 {
     position: absolute;
     top: -216px;
     left: 0;
+    z-index: -1;
     width: 100%;
   }
 
@@ -2740,4 +2763,10 @@ h2 {
     padding-left: 25px;
     padding-right: 25px;
   }
+}
+
+@media (max-width: 992px) {
+  .rate-card .rate-card__no-price .price {
+    margin-bottom: 32px;
+  }  
 }
