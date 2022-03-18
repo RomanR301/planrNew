@@ -70,7 +70,7 @@
                   alt="Icon of Language">
               </picture>
               <span class="language__title">
-                CH
+                DE
               </span>
             </a>
           </div>
@@ -89,13 +89,12 @@
       <div class="container">
         <h1 class="site__title">Prices</h1>
         <p class="site-description">
-          Our pricing is divided between employees who actively use PLANR (planners) and those employees who only view
-          the information relevant to them on their cell phone (viewers).
+          Our pricing is divided between employees who actively use <span class="planr">planr</span> (planners) and those employees who only view the information relevant to them on their smartphone (viewers).
         </p>
         <div class="counter__table">
           <div class="counter__item">
             <div class="counter__text">
-              <h5>Number of planners</h5>
+              <h5>Number of Planners</h5>
             </div>
             <div class="counter__wrapper">
               <input type="number" class="counter__input counter__planners" min="1" max="999" value="1">
@@ -133,7 +132,7 @@
           </label>
           <span class="switch__text">Yearly</span>
         </div>
-        <p class="site-description small">Pay annually and save up to 15% </p>
+        <p class="site-description small">Pay annually and save 15%</p>
         <div class="rate__table">
           <div class="rate__wrapper">
             <div class="rate-card">
@@ -141,21 +140,11 @@
                 <h3>Basic</h3>
                 <p class="site-description">Ideal for planning at the moment and the near future</p>
                 <ul>
-                  <li>
-                    Personnel planning and checking for double booking
-                  </li>
-                  <li>
-                    Planning of absences
-                  </li>
-                  <li>
-                    Planning of work equipment
-                  </li>
-                  <li>
-                    Individualization of working hours and holidays
-                  </li>
-                  <li>
-                    Various filtering options and calendar views
-                  </li>
+                  <li>Personnel planning and automatic detection of overbookings</li>
+                  <li>planning of absences</li>
+                  <li>Individualization of working hours and holidays</li>
+                  <li>Views for daily, weekly and annual planning</li>
+                  <li>Filter options</li>
                 </ul>
               </div>
               <div class="rate-card__price">
@@ -188,27 +177,11 @@
                 <h3>Pro</h3>
                 <p class="site-description">Ideal for planning at the moment and the medium to long term future</p>
                 <ul>
-                  <li>
-                    Personnel planning and checking for double booking
+                  <li class="rate-card__includes"><strong>Everything from Basic and</strong></li>
+                  <li>Management of work equipment</li>
+                  <li>Long-term planning with provisional vacancy employees
                   </li>
-                  <li>
-                    planning of absences
-                  </li>
-                  <li>
-                    planning of work equipment
-                  </li>
-                  <li>
-                    Individualization of working hours and holidays
-                  </li>
-                  <li>
-                    Various filter options and calendar views
-                  </li>
-                  <li>
-                    Planning of vacancies
-                  </li>
-                  <li>
-                    Automatic calculation of employee workload
-                  </li>
+                  <li>Calculation of company and employee workload incl. graphical overview</li>
                 </ul>
               </div>
               <div class="rate-card__price">
@@ -240,27 +213,13 @@
                 <h3>Enterprise</h3>
                 <p class="site-description">Ideal for larger companies with individual wishes or needs</p>
                 <ul>
-                  <li>
-                    Personnel planning and checking for double booking
-                  </li>
-                  <li>
-                    planning of absences
-                  </li>
-                  <li>
-                    planning of work equipment
-                  </li>
-                  <li>
-                    Individualization of working hours and holidays
-                  </li>
-                  <li>
-                    Various filter options and calendar views
-                  </li>
-                  <li>
-                    Planning of vacancies
-                  </li>
-                  <li>
-                    Automatic calculation of employee workload
-                  </li>
+                  <li class="rate-card__includes"><strong>Everything from Pro and</strong></li>
+                  <li>Individual authorization structure</li>
+                  <li>ERP connection</li>
+                  <li>Single Sign-On (SSO) connection (e.g. Microsoft Active Directory)</li>
+                  <li>Companies with multiple branches</li>
+                  <li>Company-wide training</li>
+                  <li>White label solution</li>
                 </ul>
               </div>
               <div class="rate-card__price rate-card__no-price">
@@ -292,7 +251,7 @@
     <div class="modal">
       <div class="modal__container">
         <form action="" id="form" class="modal__form">
-          <h4>Please, fill out the contact form. We will get back to you within 24h!</h4>
+          <h4>Please, fill out the contact form. We will get back to you within one working day</h4>
           <div class="form__field">
             <input type="text" name="user_name" id="user_name" placeholder="Name">
           </div>
@@ -300,7 +259,7 @@
             <input type="email" name="user_email" id="user_email" placeholder="E-Mail">
           </div>
           <div class="form__field">
-            <textarea name="" id="" placeholder="Nachricht"></textarea>
+            <textarea name="" id="" placeholder="Message"></textarea>
           </div>
           <button type="submit" class="btn-primary">Send</button>
         </form>

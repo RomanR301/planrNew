@@ -214,12 +214,7 @@ if (document.querySelector("#form")) {
     }
   });
 
-  if (document.querySelector("#user_company")) {
-    validationForm.addField("#user_company", [{
-      rule: "required",
-      errorMessage: "Company is required"
-    }]);
-  };
+
 }; // Dropdown"s
 
 if (!Element.prototype.closest) {

@@ -1281,10 +1281,10 @@ h2 {
   width: 100%;
   height: 100%;
 }
-.product-plan__slider .plan__card {
+/* .product-plan__slider .plan__card {
   flex-direction: column;
   padding: 52px 15px  50px;
-}
+} */
 .product-plan__slider .plan-modal-trigger {
   color: #8033FD;
   font-size: 18px;
@@ -1679,7 +1679,10 @@ h2 {
 .rate-card .price strong {
   font-weight: 700;
 }
-
+.rate-card__includes strong {
+  color: #8033FF;
+  border-bottom: 2px solid #8033FF;
+}
 .rate-card .price:not(:last-child) {
   margin-bottom: 12px;
 }
@@ -1737,16 +1740,16 @@ h2 {
   font-size: 16px;
 }
 .price-year-eng:after {
-  content: '/year';
-  font-size: 18px;
+  content: '/month';
+  font-size: 16px;
 }
 .price-month-de:after {
   content: '/Monat';
   font-size: 16px;
 }
 .price-year-de:after {
-  content: '/Jahr';
-  font-size: 18px;
+  content: '/Monat';
+  font-size: 16px;
 }
 .rate-card__background picture,
 .rate-card__background img,
