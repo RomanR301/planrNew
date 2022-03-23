@@ -1482,11 +1482,11 @@ h2 {
 
 .product {
   position: relative;
-  padding: 60px 0 120px;
+  padding: 110px 0 120px;
 }
 
 .product .site__title {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .product .site-description {
@@ -1549,12 +1549,12 @@ h2 {
 
 .rate {
   position: relative;
-  padding: 60px 0;
+  padding: 110px 0;
   overflow: hidden;
 }
 
 .rate h1 {
-  margin-bottom: 36px;
+  margin-bottom: 50px;
 }
 
 .rate .site-description {
@@ -1796,12 +1796,12 @@ h2 {
 
 .team {
   position: relative;
-  padding: 60px 0;
+  padding: 110px 0;
   overflow: hidden;
 }
 
 .team h1 {
-  margin-bottom: 36px;
+  margin-bottom: 50px;
 }
 
 .team .site-description {
@@ -1854,8 +1854,6 @@ h2 {
 }
 
 .team__photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -1864,17 +1862,18 @@ h2 {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  min-height: 255px;
+  height: 255px;
   background: #ffffff;
   border-radius: 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+  overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
 
-.team__photo picture,
 .team__photo img {
   display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .team__name {
@@ -1911,7 +1910,7 @@ h2 {
 
 .testing {
   position: relative;
-  padding: 60px 0;
+  padding: 110px 0;
 }
 
 .testing .container {
@@ -1919,7 +1918,7 @@ h2 {
 }
 
 .testing h1 {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .testing .site-description {
@@ -1984,7 +1983,7 @@ h2 {
 }
 
 .thanks h1 {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .thanks__background {
@@ -2632,7 +2631,7 @@ h2 {
   }
 
   .product {
-    margin-top: 94px;
+    margin-top: 50px;
     padding: 100px 0 374px;
   }
 
@@ -2653,7 +2652,7 @@ h2 {
   }
 
   .rate {
-    margin-top: 94px;
+    margin-top: 50px;
     padding: 100px 0;
   }
 
@@ -2683,12 +2682,12 @@ h2 {
   }
 
   .team {
-    margin-top: 94px;
+    margin-top: 50px;
     padding: 100px 0 130px;
   }
 
   .team h1 {
-    margin-bottom: 48px;
+    margin-bottom: 50px;
   }
 
   .team .site-description {
@@ -2712,7 +2711,7 @@ h2 {
   }
 
   .testing {
-    margin-top: 94px;
+    margin-top:50px;
     padding: 100px 0 576px;
     min-height: 100vh;
     display: -webkit-box;
@@ -2763,6 +2762,12 @@ h2 {
   }
 }
 
+@media (max-width: 1200px) {
+  .team__photo {
+    height: 360px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .plan__slider {
     padding-left: 25px;
@@ -2774,4 +2779,18 @@ h2 {
   .rate-card .rate-card__no-price .price {
     margin-bottom: 32px;
   }  
+  .team__photo {
+    height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team__photo {
+    height: 450px;
+  }
+}
+@media (max-width: 640px) {
+  .team__photo {
+    height: auto;
+  }
 }
