@@ -1634,10 +1634,19 @@ h2 {
   font-weight: 700;
   line-height: 1.1;
 }
-
+.rate-card__enterprise__price {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
 .rate-card .site-description {
   margin-bottom: 20px;
   text-align: left;
+}
+.rate-card .site-description.mb-47 {
+  margin-bottom: 47px;
 }
 
 .rate-card ul {
@@ -2406,7 +2415,7 @@ h2 {
   
   .rate-card__background {
     width: 100%;
-    height: 160px;
+    height: 220px;
     display: flex;
     align-items: flex-end;
   }
@@ -2811,6 +2820,9 @@ h2 {
   }  
   .team__photo {
     height: 500px;
+  }
+  .rate-card .site-description.mb-47 {
+    margin-bottom: 20px;
   }
 }
 
