@@ -1648,7 +1648,7 @@ h2 {
   position: relative;
   padding-left: 36px;
   color: #3D3131;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 350;
   line-height: 1.5;
 }
@@ -1706,14 +1706,14 @@ h2 {
   display: none;
 }
 .total-basic-wrapper.active .discount-basic {
-  display: block;
+  display: flex;
 }
 
 .total-pro-wrapper.active .total-pro {
   display: none;
 }
 .total-pro-wrapper.active .discount-pro {
-  display: block;
+  display: flex;
 }
 
 .rate-card .btn-primary {
@@ -1726,10 +1726,18 @@ h2 {
 .rate-card .total {
   display: flex;
   align-items: center;
-  margin-left: 16px;
+  margin-bottom: 16px;
 }
 .rate-card .total-text {
   margin-right: 8px;
+}
+.total-number {
+  font-size: 55px;
+  line-height: 55px;
+  color: #8033FD;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
 }
 /* .rate-card .total:before {
   content: '('
@@ -1737,21 +1745,43 @@ h2 {
 .rate-card .total:after {
   content: ')'
 } */
+.total-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3D3131;
+}
 .price-month-eng:after {
-  content: '/month';
-  font-size: 16px;
+  content: '/ month';
+  font-size: 18px;
+  color: #3D3131;
+  margin-left: 8px;
+  font-weight: 400;
+
 }
 .price-year-eng:after {
-  content: '/month';
-  font-size: 16px;
+  content: '/ month';
+  font-size: 18px;
+  color: #3D3131;
+  margin-left: 8px;
+  font-weight: 400;
+
 }
 .price-month-de:after {
-  content: '/Monat';
-  font-size: 16px;
+  content: '/ Monat';
+  font-size: 18px;
+  color: #3D3131;
+  margin-left: 8px;
+  font-weight: 400;
+
 }
 .price-year-de:after {
-  content: '/Monat';
-  font-size: 16px;
+  content: '/ Monat';
+  font-size: 18px;
+  color: #3D3131;
+  margin-left: 8px;
+  font-weight: 400;
+
 }
 .rate-card__background picture,
 .rate-card__background img,
@@ -2790,7 +2820,7 @@ h2 {
   }
 }
 @media (max-width: 640px) {
-  .team__photo {
+  .team__photo {  
     height: auto;
   }
 }
